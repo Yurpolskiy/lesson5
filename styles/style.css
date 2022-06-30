@@ -21,6 +21,7 @@ a{
     letter-spacing: 0.02em;
     font-size: 18px;
     color: #828282;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -50,6 +51,7 @@ li{
 }
 .homepage{
     color: #070707;
+    font-family: 'Open Sans', sans-serif;
 }
 .underline{
     color: #828282;
@@ -61,6 +63,7 @@ li{
     font-size: 48px;
     font-weight: 700;
     line-height: 65px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .name_photo{
@@ -73,6 +76,7 @@ li{
     display: flex;
     flex-direction: column;
     text-align: center;
+
 }
 
 .about_me_title{
@@ -80,27 +84,32 @@ li{
     padding-top: 100px;
     font-weight: 700;
     font-size: 34px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p{
     margin: 0 auto 30px;
     font-size: 18px;
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p:first-of-type{
     width: 480px;
     height: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p:nth-of-type(2) {
         width: 406px;
         height: 50px;
+        font-family: 'Open Sans', sans-serif;
 }
 
 p:last-of-type {
     width: 321px;
     height: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .skills{
@@ -110,6 +119,7 @@ p:last-of-type {
 .skills_title{
     margin-top:100px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -119,12 +129,14 @@ p:last-of-type {
     line-height: 46px;
     margin-bottom: 20px;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .skills_title p {
     font-size: 18px;
     line-height: 25px;
     margin: 0 auto 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .skills_rating{
@@ -146,6 +158,7 @@ p:last-of-type {
     line-height: 46px;
     margin-top: 100px;
     margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h3{
@@ -156,12 +169,14 @@ h3{
     line-height: 25px;
     text-decoration: underline;
     color: #070707;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h3:first-of-type{
     width: 200px;
     height: 50px;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer{
@@ -174,6 +189,7 @@ footer{
 footer h2{
     font-weight: 700;
     font-size: 34px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer p {
@@ -203,7 +219,8 @@ button{
 
 .social_links{
     margin-top: 30px;
-    display: block
+    display: block;
+    margin-bottom: 60px;
 
 }
 
@@ -217,4 +234,16 @@ button{
 
 .behance{
     margin-right: 50px;
+}
+footer p:last-of-type{
+    font-size: 14px;
+    width: 200px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+    letter-spacing: 1px;
 }
