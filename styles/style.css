@@ -22,6 +22,7 @@ a{
     font-size: 18px;
     color: #828282;
     font-family: 'Open Sans', sans-serif;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 
@@ -246,4 +247,9 @@ footer p:last-of-type{
     text-align: center;
     color: #828282;
     letter-spacing: 1px;
+}
+
+header a:hover{
+    box-shadow: inset 100px 0 0 0 #708090;
+    color: white;
 }
