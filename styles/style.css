@@ -1,0 +1,220 @@
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+body.about_me{
+    width: 1440px;
+    background-color: #F6F6F6;
+}
+.prison_block {
+    width: 970px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    color: #828282;
+}
+
+
+
+nav{
+    height: 80px;
+    display: inline;
+    text-align: center;
+}
+
+ul{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+li{
+    text-decoration: none;
+    padding-right: 40px;
+    display: inline-block;
+}
+
+.underline{
+    text-decoration: underline;
+    width: 970px;
+    text-align: center;
+    margin: 0;
+}
+.homepage{
+    color: #070707;
+}
+.underline{
+    color: #828282;
+    width: 970px;
+}
+
+.name{
+    color: #070707;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.name_photo{
+    width: 970px;
+}
+
+.about_me{
+    background-color: #F6F6F6;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about_me_title{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+p{
+    margin: 0 auto 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p:first-of-type{
+    width: 480px;
+    height: 50px;
+}
+
+p:nth-of-type(2) {
+        width: 406px;
+        height: 50px;
+}
+
+p:last-of-type {
+    width: 321px;
+    height: 50px;
+}
+
+.skills{
+    margin-bottom: 100px;
+}
+
+.skills_title{
+    margin-top:100px;
+    text-align: center;
+
+}
+
+.skills_title h2 {
+    color: #070707;
+    font-size: 34px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.skills_title p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 auto 50px;
+}
+
+.skills_rating{
+    margin-left: 45px;
+    margin-right: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio{
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio h2{
+    font-size: 34px;
+    line-height: 46px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h3{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: underline;
+    color: #070707;
+}
+
+h3:first-of-type{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer h2{
+    font-weight: 700;
+    font-size: 34px;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 60px;
+
+}
+button{
+    width: 180px;
+    height: 44px;
+    padding: 0 16px;
+    border-radius: 22px;
+    background: #070707;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social_links{
+    margin-top: 30px;
+    display: block
+
+}
+
+.linkedin{
+    margin-right: 65px;
+}
+
+.instagram{
+    margin-right: 50px;
+}
+
+.behance{
+    margin-right: 50px;
+}
