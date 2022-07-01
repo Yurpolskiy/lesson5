@@ -1,22 +1,23 @@
-body{
+body {
     width: 1440px;
     margin: 0 auto;
 }
 
-body.about_me{
+body.about_me {
     width: 1440px;
     background-color: #F6F6F6;
 }
+
 .prison_block {
     width: 970px;
     margin: 0 auto;
 }
 
-header{
+header {
     text-align: center;
 }
 
-a{
+a {
     text-decoration: none;
     letter-spacing: 0.02em;
     font-size: 18px;
@@ -25,41 +26,41 @@ a{
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-
-
-nav{
+nav {
     height: 80px;
     display: inline;
     text-align: center;
 }
 
-ul{
+ul {
     margin-top: 28px;
     margin-bottom: 28px;
 }
 
-li{
+li {
     text-decoration: none;
     padding-right: 40px;
     display: inline-block;
 }
 
-.underline{
+.underline {
     text-decoration: underline;
     width: 970px;
     text-align: center;
     margin: 0;
 }
-.homepage{
+
+.homepage {
     color: #070707;
     font-family: 'Open Sans', sans-serif;
 }
-.underline{
+
+.underline {
     color: #828282;
     width: 970px;
 }
 
-.name{
+.name {
     color: #070707;
     font-size: 48px;
     font-weight: 700;
@@ -67,11 +68,11 @@ li{
     font-family: 'Open Sans', sans-serif;
 }
 
-.name_photo{
+.name_photo {
     width: 970px;
 }
 
-.about_me{
+.about_me {
     background-color: #F6F6F6;
     height: 500px;
     display: flex;
@@ -80,7 +81,7 @@ li{
 
 }
 
-.about_me_title{
+.about_me_title {
     padding-bottom: 50px;
     padding-top: 100px;
     font-weight: 700;
@@ -88,14 +89,14 @@ li{
     font-family: 'Open Sans', sans-serif;
 }
 
-p{
+p {
     margin: 0 auto 30px;
     font-size: 18px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
 }
 
-p:first-of-type{
+p:first-of-type {
     width: 480px;
     height: 50px;
     font-family: 'Open Sans', sans-serif;
@@ -113,11 +114,11 @@ p:last-of-type {
     font-family: 'Open Sans', sans-serif;
 }
 
-.skills{
+.skills {
     margin-bottom: 100px;
 }
 
-.skills_title{
+.skills_title {
     margin-top:100px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -140,21 +141,21 @@ p:last-of-type {
     font-family: 'Open Sans', sans-serif;
 }
 
-.skills_rating{
+.skills_rating {
     margin-left: 45px;
     margin-right: 58px;
     display: flex;
     justify-content: space-between;
 }
 
-.portfolio{
+.portfolio {
     background-color: #F6F6F6;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.portfolio h2{
+.portfolio h2 {
     font-size: 34px;
     line-height: 46px;
     margin-top: 100px;
@@ -162,7 +163,7 @@ p:last-of-type {
     font-family: 'Open Sans', sans-serif;
 }
 
-h3{
+h3 {
     padding-top: 40px;
     padding-bottom: 70px;
     font-weight: 400;
@@ -173,21 +174,21 @@ h3{
     font-family: 'Open Sans', sans-serif;
 }
 
-h3:first-of-type{
+h3:first-of-type {
     width: 200px;
     height: 50px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
 
-footer{
+footer {
     margin-top: 100px;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-footer h2{
+footer h2 {
     font-weight: 700;
     font-size: 34px;
     font-family: 'Open Sans', sans-serif;
@@ -202,7 +203,7 @@ footer p {
     margin-bottom: 60px;
 
 }
-button{
+button {
     width: 180px;
     height: 44px;
     padding: 0 16px;
@@ -218,25 +219,26 @@ button{
     margin-bottom: 30px;
 }
 
-.social_links{
+.social_links {
     margin-top: 30px;
     display: block;
     margin-bottom: 60px;
 
 }
 
-.linkedin{
+.linkedin {
     margin-right: 65px;
 }
 
-.instagram{
+.instagram {
     margin-right: 50px;
 }
 
-.behance{
+.behance {
     margin-right: 50px;
 }
-footer p:last-of-type{
+
+footer p:last-of-type {
     font-size: 14px;
     width: 200px;
     height: 60px;
@@ -249,7 +251,7 @@ footer p:last-of-type{
     letter-spacing: 1px;
 }
 
-header a:hover{
+header a:hover {
     box-shadow: inset 100px 0 0 0 #708090;
     color: white;
 }
